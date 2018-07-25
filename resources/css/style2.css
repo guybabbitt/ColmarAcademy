@@ -1,0 +1,122 @@
+html {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+h1,
+h2,
+h4 {
+    font-family: Poppins, sans-serif;
+}
+
+h1 {
+    font-size: 2.1rem;
+    font-weight: 800;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    height: 4rem;
+    align-items: center;
+    border-bottom: .1rem solid rgb(84, 127, 84);
+    justify-content: space-between;
+    padding: 0 1.5rem;
+}
+
+.header_logo {
+    display: inline-flex;
+    height: 2rem;
+    align-items: center;
+    font-weight: bold;
+}
+
+.academy {
+    color: darkgray;
+}
+
+nav li {
+    display: inline-flex;
+    padding-left: 1rem; 
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    background-color: rgb(195, 204, 195);;
+    padding: 2rem 1.5rem;
+}
+
+.banner_image {
+    width: 60%;
+    padding-right: 1.5rem;
+}
+
+.banner_image img {
+    width: 100%;
+}
+
+.banner_message {
+    width: 40%;
+}
+
+.banner_message_content {
+    width: 75%;
+}
+
+.banner_message_content h3 {
+    margin: 2rem 0;
+}
+
+.message_button {
+    background-color: rgb(84, 127, 84);
+    text-align: center;
+    padding: .5rem 0;
+}
+
+.about {
+    padding: 2rem 1.5rem;
+    display: flex;
+}
+
+.feature {
+    margin-right: 1.5rem;
+    width: 60%;
+    flex-direction: column;
+}
+
+.feature_image {
+
+}
+
+.feature_image img {
+    width: 100%;
+}
+
+.feature_text h2 {
+    padding-top: 2rem;
+}
+
+.feature_text p {
+    padding-top: 1.5rem;
+}
+
+.articles {
+    width: 40%;
+}
